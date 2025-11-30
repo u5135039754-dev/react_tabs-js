@@ -26,9 +26,6 @@ export const App = () => {
             onTabSelected={setActiveTabId}
           />
         </div>
-        <div className="block" data-cy="TabContent">
-          {activeTab.content}
-        </div>
       </div>
     </div>
   );
